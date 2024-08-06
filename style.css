@@ -70,4 +70,9 @@ button {
 
 #mid {
     background-color: wheat;
+    padding: 3vh 0 3vh 3vw;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
