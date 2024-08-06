@@ -3,8 +3,12 @@
     src: url(fonts/Norse-Bold.otf);
 }
 
-#left {
+body {
     display: flex;
+}
+
+#upper {
+    margin: 12vh 15vw 3vh 3vw ;
 }
 
 #leafy-background {
@@ -47,6 +51,19 @@
     color: white;
 }
 
-a:visited, a::before {
+a:visited, a:link {
     color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-full {
+    display: flex;
+}
+
+button {
+    margin-top: 4vh;
 }
