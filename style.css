@@ -13,6 +13,10 @@
     src: url(fonts/Aller_Rg.ttf);
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     background-color: aliceblue;
     display: flex;
@@ -72,7 +76,20 @@ body {
 }
 
 input {
+    height: 1.5rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 7px;
     margin-bottom: 2rem;
+    width: 15rem;
+}
+
+input:focus {
+    border: 1.5px solid rgb(54, 54, 158);
+    box-shadow: 1px 1px 3px rgb(124, 123, 123);
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
 }
 
 #form-full {
