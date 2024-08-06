@@ -51,7 +51,7 @@ body {
     color: white;
 }
 
-a:visited, a:link {
+.img-link:visited, .img-link:link {
     color: white;
 }
 
@@ -62,10 +62,11 @@ a:visited, a:link {
 
 #form-full {
     display: flex;
+    column-gap: 5vw;
 }
 
-button {
-    margin-top: 4vh;
+button, .log-in {
+    margin: 4vh 0 0 3vw;
 }
 
 #mid {
